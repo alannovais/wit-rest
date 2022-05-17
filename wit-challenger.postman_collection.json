@@ -1,0 +1,167 @@
+{
+	"id": "c96d2d02-2788-2edf-5a70-3bfce4aabfba",
+	"name": "wit-challenger",
+	"description": "",
+	"order": [
+		"b74e7b48-fd01-49df-502f-69b4bf541201",
+		"aa6b1028-0629-53f7-ab3c-020ba8d97650",
+		"f2ec1374-cf48-fae5-8a24-ca5fdb91b368",
+		"7752dbad-7bb2-62a1-fb54-4a029db7d57a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1651887957244,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "7752dbad-7bb2-62a1-fb54-4a029db7d57a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9001/api/mult?a=5&b=2",
+			"queryParams": [
+				{
+					"key": "a",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "b",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c96d2d02-2788-2edf-5a70-3bfce4aabfba",
+			"data": null,
+			"dataMode": "params",
+			"name": "Mult",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1651888156236,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "aa6b1028-0629-53f7-ab3c-020ba8d97650",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9001/api/sum?a=2&b=8",
+			"queryParams": [
+				{
+					"key": "a",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "b",
+					"value": "8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1651888145740,
+			"name": "Sum",
+			"description": "",
+			"collectionId": "c96d2d02-2788-2edf-5a70-3bfce4aabfba",
+			"responses": []
+		},
+		{
+			"id": "b74e7b48-fd01-49df-502f-69b4bf541201",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9001/api/sub?a=5&b=5",
+			"queryParams": [
+				{
+					"key": "a",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "b",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1651888148477,
+			"name": "Sub",
+			"description": "",
+			"collectionId": "c96d2d02-2788-2edf-5a70-3bfce4aabfba",
+			"responses": []
+		},
+		{
+			"id": "f2ec1374-cf48-fae5-8a24-ca5fdb91b368",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9001/api/div?a=20&b=10",
+			"queryParams": [
+				{
+					"key": "a",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "b",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1651888193951,
+			"name": "Div",
+			"description": "",
+			"collectionId": "c96d2d02-2788-2edf-5a70-3bfce4aabfba",
+			"responses": []
+		}
+	]
+}
